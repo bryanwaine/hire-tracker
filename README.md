@@ -63,13 +63,13 @@ This application is currently deployed on a shared panel-based hosting environme
 2. Install PHP and Node dependencies:
     ``` bash
     composer install
-     npm install
+    npm install
     ```
 
 3. Set up your environment file:
     ``` bash
     cp .env.example .env
-     php artisan key:generate
+    php artisan key:generate
     ```
 
 4. Run migrations and seed the database with dummy branch data:
@@ -80,5 +80,5 @@ This application is currently deployed on a shared panel-based hosting environme
 5. Compile the React frontend and start the Laravel server:
     ``` bash
     npm run dev
-     php artisan serve
+    php artisan serve
     ```
