@@ -32,7 +32,7 @@ To support warehouse staff away from the desk, the system exposes a read-only RE
 ```json
 {
     "success": true,
-    "data": 
+    "data": {
         "id": 1,
         "name": "Makita 110V Cement Mixer",
         "serial_number": "MIX-001",
