@@ -2,7 +2,7 @@
 
 A full-stack Single Page Application (SPA) designed for the equipment hire and service industry. Built to manage multi-branch inventory, enforce regulatory safety compliance, and provide mobile-ready data endpoints for yard staff.
 
-Live url: http://hire-tracker.site.je
+Live url: https://hire-tracker.site.je
 
 ## Connection Notice (InfinityFree Hosting Limitations)
 
