@@ -1,8 +1,8 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
 
-export default function Logs({ auth, logs, branches }) {
-    console.log(auth)
+export default function Logs({ auth, logs }) {
+
     return (
         <AuthenticatedLayout user={auth.user} header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Safety Inspection Logs</h2>}>
             <Head title="Inspection Logs" />
