@@ -11,7 +11,7 @@ You may encounter an `ERR_SSL_PROTOCOL_ERROR` or a browser warning (like `safebr
 **This is entirely an infrastructure issue and does not pose any malware risk.**
 
 * **Why it happens:** This project is hosted on InfinityFree's free tier. The platform's shared wildcard SSL certificates frequently drop handshakes. Browsers automatically flag the fallback `http://` connection as "Not Secure" because traffic isn't encrypted, not because the site contains malicious code.
-* **How to view:** If the page blocks you, try opening it in an **Incognito window** or manually change the URL prefix to **`http://`**. After the page loads using the **`http://`** prefix, you can then switch back to using the **`https://`** prefix.
+* **How to view:** If the page blocks you, try opening it in an **Incognito window** or manually change the URL prefix to **`http://`**.
 
 ## Project Overview
 This project was built to solve practical logistical challenges in tool and plant machinery rental. Rather than a standard CRUD app, this system implements real-world business rules, such as preventing the transfer of unsafe equipment and maintaining strict audit trails for maintenance checks.
